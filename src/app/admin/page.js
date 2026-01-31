@@ -395,47 +395,45 @@ export default function AdminDashboard() {
                                     <p>Review and reply to messages from your community.</p>
                                 </div>
                             </div>
-
                             <div className="data-list">
-                                {messages.length === 0 ? (
-                                    <div className="empty-state">No messages received yet.</div>
+                                {Array.isArray(messages) && messages.length === 0 ? (
+                                    <div className="empty-state">
+                                        <div className="empty-icon"><MessageSquare size={48} /></div>
+                                        <p>No messages yet.</p>
+                                    </div>
                                 ) : (
-                                    messages.map(msg => (
-                                        <div key={msg.id} className={`data-card msg-card ${msg.status}`}>
-                                            <div className="msg-header">
-                                                <div className="user-info">
-                                                    <div className="avatar"><User size={16} /></div>
-                                                    <div>
-                                                        <h4>{msg.name}</h4>
-                                                        <div className="meta">
-                                                            <span><Mail size={12} /> {msg.email}</span>
-                                                            <span><Calendar size={12} /> {new Date(msg.createdAt).toLocaleDateString()}</span>
-                                                        </div>
+                                    <div className="message-list">
+                                        {Array.isArray(messages) && messages.map(msg => (
+                                            <div key={msg.id} className={`message-card ${msg.status}`}>
+                                                <div className="message-header">
+                                                    <div className="sender-info">
+                                                        <span className="sender-name">{msg.name}</span>
+                                                        <span className="sender-email">{msg.email}</span>
+                                                    </div>
+                                                    <div className={`status-tag ${msg.status}`}>
+                                                        {msg.status === 'replied' ? <Check size={14} /> : null}
+                                                        {msg.status}
                                                     </div>
                                                 </div>
-                                                <div className={`status-tag ${msg.status}`}>
-                                                    {msg.status === 'replied' ? <Check size={14} /> : null}
-                                                    {msg.status}
-                                                </div>
-                                            </div>
-                                            <p className="msg-content">{msg.message}</p>
-                                            {msg.reply && (
-                                                <div className="reply-box">
-                                                    <strong>Your Response:</strong>
-                                                    <p>{msg.reply}</p>
-                                                    <span className="replied-at">Sent: {new Date(msg.repliedAt).toLocaleDateString()}</span>
-                                                </div>
-                                            )}
-                                            <div className="card-actions">
-                                                {msg.status === 'pending' && (
-                                                    <button className="reply-btn" onClick={() => setReplyingTo(msg)}>
-                                                        <Send size={16} /> Reply to User
-                                                    </button>
+                                                <p className="msg-content">{msg.message}</p>
+                                                {msg.reply && (
+                                                    <div className="reply-box">
+                                                        <strong>Your Response:</strong>
+                                                        <p>{msg.reply}</p>
+                                                        <span className="replied-at">Sent: {new Date(msg.repliedAt).toLocaleDateString()}</span>
+                                                    </div>
                                                 )}
-                                                <button className="icon-btn delete" onClick={() => handleDeleteMessage(msg.id)}><Trash2 size={18} /></button>
+                                                <div className="card-actions">
+                                                    {msg.status === 'pending' && (
+                                                        <button className="reply-btn" onClick={() => setReplyingTo(msg)}>
+                                                            <Send size={16} /> Reply to User
+                                                        </button>
+                                                    )}
+                                                    <button className="icon-btn delete" onClick={() => handleDeleteMessage(msg.id)}><Trash2 size={18} /></button>
+                                                </div>
                                             </div>
-                                        </div>
-                                    ))
+                                        ))}
+                                    </div>
                                 )}
                             </div>
                         </div>
@@ -465,15 +463,15 @@ export default function AdminDashboard() {
                                         )}
                                     </div>
                                     <button
-                                        className={`send-blast-btn ${!pdfUrl || sendingPlan || subscribers.length === 0 ? 'disabled' : ''}`}
+                                        className={`send-blast-btn ${!pdfUrl || sendingPlan || (Array.isArray(subscribers) && subscribers.length === 0) ? 'disabled' : ''}`}
                                         onClick={handleSendWeeklyPlan}
-                                        disabled={!pdfUrl || sendingPlan || subscribers.length === 0}
+                                        disabled={!pdfUrl || sendingPlan || (Array.isArray(subscribers) && subscribers.length === 0)}
                                     >
                                         {sendingPlan ? 'Sending Emails...' : (
                                             selectedSubscribers.length > 0 ? (
                                                 <><Send size={18} /> Send to {selectedSubscribers.length} Selected Subscribers</>
                                             ) : (
-                                                <><Send size={18} /> Send to All {subscribers.length} Subscribers</>
+                                                <><Send size={18} /> Send to All {Array.isArray(subscribers) ? subscribers.length : 0} Subscribers</>
                                             )
                                         )}
                                     </button>
@@ -486,9 +484,9 @@ export default function AdminDashboard() {
                                             <input
                                                 type="checkbox"
                                                 id="select-all"
-                                                checked={selectedSubscribers.length === subscribers.length && subscribers.length > 0}
+                                                checked={Array.isArray(subscribers) && subscribers.length > 0 && selectedSubscribers.length === subscribers.length}
                                                 onChange={(e) => {
-                                                    if (e.target.checked) {
+                                                    if (e.target.checked && Array.isArray(subscribers)) {
                                                         setSelectedSubscribers(subscribers.map(s => s.id));
                                                     } else {
                                                         setSelectedSubscribers([]);
@@ -499,8 +497,8 @@ export default function AdminDashboard() {
                                         </div>
                                     </div>
                                     <div className="subs-list">
-                                        {subscribers.length === 0 ? <p className="empty">No subscribers yet.</p> :
-                                            subscribers.slice().reverse().map(sub => (
+                                        {Array.isArray(subscribers) && subscribers.length === 0 ? <p className="empty">No subscribers yet.</p> :
+                                            Array.isArray(subscribers) && subscribers.slice().reverse().map(sub => (
                                                 <div key={sub.id} className={`sub-item ${selectedSubscribers.includes(sub.id) ? 'selected' : ''}`}>
                                                     <div className="sub-info">
                                                         <input
