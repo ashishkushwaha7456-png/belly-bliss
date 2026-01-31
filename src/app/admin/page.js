@@ -352,7 +352,7 @@ export default function AdminDashboard() {
                             </div>
 
                             <div className="data-list">
-                                {foods
+                                {Array.isArray(foods) && foods
                                     .filter(food =>
                                         food.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
                                         food.category.toLowerCase().includes(searchQuery.toLowerCase())
@@ -363,7 +363,7 @@ export default function AdminDashboard() {
                                                 <img
                                                     src={food.image}
                                                     alt={food.name}
-                                                    onError={(e) => e.target.src = 'https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&q=80&w=200'}
+                                                    onError={(e) => e.target.src = 'https://images.unsplash.com/photo-1490818387583-1baba2e638af?auto=format&fit=crop&q=80&w=200'}
                                                 />
                                                 <div>
                                                     <h4>{food.name}</h4>
