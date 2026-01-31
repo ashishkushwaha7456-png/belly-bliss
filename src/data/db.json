@@ -1,0 +1,835 @@
+{
+  "foods": [
+    {
+      "id": "blueberries",
+      "name": "Blueberries",
+      "category": "Berries",
+      "image": "https://images.unsplash.com/photo-1498557850523-fd3d118b962e?auto=format&fit=crop&q=80&w=800",
+      "description": "Packed with fiber, vitamin C, and antioxidant anthocyanins, blueberries are a powerhouse for brain health and heart health.",
+      "longDescription": "Blueberries are often cited as a superfood, and for good reason. They are rich in antioxidants, particularly anthocyanins, which give them their deep blue color. These antioxidants help protect your body from free radicals, which are unstable molecules that can damage your cells and contribute to aging and diseases, such as cancer. Furthermore, blueberries have been shown to improve brain function and delay brain aging.",
+      "benefits": [
+        "Rich in Antioxidants",
+        "Heart Healthy",
+        "Brain Boost",
+        "High in Fiber"
+      ],
+      "calories": 57,
+      "protein": "0.7g",
+      "carbs": "14g",
+      "fat": "0.3g",
+      "amazonLink": "https://amzn.in/d/0KhUU6D",
+      "flipkartLink": "https://www.flipkart.com/vedic-wellness-natural-premium-dried-unsweetened-blueberry-plum-no-sugar-added-healthy-tasty/p/itmcd256dcd4af44?pid=NDFHF6FSZFH85NUC&lid=LSTNDFHF6FSZFH85NUCHXG7QB&marketplace=FLIPKART&q=blueberries&store=eat%2Fw2q%2F2pb&srno=s_1_20&otracker=search&otracker1=search&fm=Search&iid=95320aac-69b3-467d-9af6-6fbdd6f69592.NDFHF6FSZFH85NUC.SEARCH&ppt=sp&ppn=sp&ssid=62sipmy5ls0000001769858281723&qH=0a0a239171739300"
+    },
+    {
+      "id": "salmon",
+      "name": "Wild Salmon",
+      "category": "Protein",
+      "image": "https://images.unsplash.com/photo-1599084993091-1cb5c0721cc6?auto=format&fit=crop&q=80&w=800",
+      "description": "An excellent source of omega-3 fatty acids, which are essential for heart health and reducing inflammation.",
+      "longDescription": "Fatty fish like salmon are loaded with omega-3 fatty acids. These are incredibly important for heart health and can help lower the risk of heart disease and stroke. Salmon is also a great source of high-quality protein, vitamins, and minerals, including potassium, selenium, and vitamin B12. Wild-caught salmon is generally preferred over farmed due to its superior nutrient profile and lower levels of contaminants.",
+      "benefits": [
+        "Omega-3 Fatty Acids",
+        "High Quality Protein",
+        "Reduces Inflammation",
+        "Vitamin B12"
+      ],
+      "calories": 208,
+      "protein": "22g",
+      "carbs": "0g",
+      "fat": "13g",
+      "amazonLink": "https://amzn.in/d/5gn8KZz"
+    },
+    {
+      "id": "spinach",
+      "name": "Spinach",
+      "category": "Leafy Greens",
+      "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&q=80&w=800",
+      "description": "Loaded with iron, calcium, and vitamins A, C, and K, spinach is a nutrient-dense green that supports bone health.",
+      "longDescription": "Spinach is a nutritional powerhouse. It's packed with vitamins and minerals, specifically high amounts of vitamin K, vitamin A, manganese, folate, and iron. It's also rich in antioxidants that may help reduce oxidative stress and lower blood pressure levels. Whether eaten raw in salads or cooked in various dishes, spinach provides a significant boost to your overall health.",
+      "benefits": [
+        "Bone Health",
+        "Iron Rich",
+        "Eye Health",
+        "Blood Pressure Support"
+      ],
+      "calories": 23,
+      "protein": "2.9g",
+      "carbs": "3.6g",
+      "fat": "0.4g",
+      "amazonLink": "https://amzn.in/d/9cq2DSc",
+      "flipkartLink": "https://www.flipkart.com/spinach-without-roots/p/itm3ce1df0a32f4d?pid=VEGFRTMMSCUTZMYZ&lid=LSTVEGFRTMMSCUTZMYZAORQPL&marketplace=FLIPKART&q=spinach&store=eat%2Flmt%2Fzhh&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_2_7_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_2_7_na_na_na&fm=search-autosuggest&iid=7c3f5705-e864-4409-ae35-cb8c86107afa.VEGFRTMMSCUTZMYZ.SEARCH&ppt=sp&ppn=sp&ssid=egm6jzewy80000001769863613258&qH=76aba95cba4ed128"
+    },
+    {
+      "id": "avocado",
+      "name": "Avocado",
+      "category": "Healthy Fats",
+      "image": "https://ride-chef-dev.s3.ap-south-1.amazonaws.com/foods/1769857810889-avocadoImages.jpg",
+      "description": "A unique fruit high in healthy monounsaturated fats, fiber, and potassium.",
+      "longDescription": "Avocados are unlike most other fruits because they are high in healthy fats rather than carbs. They are particularly rich in oleic acid, a monounsaturated fatty acid that is also the main component of olive oil. Avocados are also a great source of potassium, which many people don't get enough of, and fiber, which helps with weight loss and metabolic health.",
+      "benefits": [
+        "Healthy Fats",
+        "High Fiber",
+        "Potassium Source",
+        "Heart Health"
+      ],
+      "calories": 160,
+      "protein": "2g",
+      "carbs": "9g",
+      "fat": "15g",
+      "amazonLink": "https://amzn.in/d/fLmBrku"
+    },
+    {
+      "id": "walnuts",
+      "name": "Walnuts",
+      "category": "Nuts",
+      "image": "https://ride-chef-dev.s3.ap-south-1.amazonaws.com/foods/1769857827026-walnutsImages.jpg",
+      "description": "Walnuts provide more antioxidant power and more omega-3 fatty acids than any other common nut.",
+      "longDescription": "Walnuts are an excellent source of antioxidants and healthy fats. They contain significantly higher amounts of omega-3 fatty acids (alpha-linolenic acid) than any other nut. Eating walnuts has been linked to improved brain health, reduced heart disease risk, and better gut health. They make for a perfect, nutrient-rich snack on the go.",
+      "benefits": [
+        "Brain Health",
+        "Antioxidant Power",
+        "Gut Health",
+        "Omega-3s"
+      ],
+      "calories": 654,
+      "protein": "15g",
+      "carbs": "14g",
+      "fat": "65g",
+      "amazonLink": "https://amzn.in/d/6V9MgOR",
+      "flipkartLink": "https://www.flipkart.com/tata-sampann-premium-kernels-handpicked-resealable-pack-walnuts/p/itm550a81f59bc9d?pid=NDFGPYF8EDG6SKSM&lid=LSTNDFGPYF8EDG6SKSML8MCVC&marketplace=FLIPKART&q=walnuts+1+kg+tata+sampann&store=eat%2Fltb%2Fngb&srno=s_1_3&otracker=AS_Query_OnlineSuffix_4_20_na_na_na&otracker1=AS_Query_OnlineSuffix_4_20_na_na_na&fm=search-autosuggest&iid=d81355bd-cf9c-4a86-b0a3-535b851d550f.NDFGPYF8EDG6SKSM.SEARCH&ppt=sp&ppn=sp&ssid=u5n3qayi3k0000001769863793310&qH=c630097a3a8dde65"
+    },
+    {
+      "id": "broccoli",
+      "name": "Broccoli",
+      "category": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1452948491233-ad8a1ed01085?auto=format&fit=crop&q=80&w=800",
+      "description": "A cruciferous vegetable rich in sulforaphane, vitamins C and K, and fiber.",
+      "longDescription": "Broccoli is a nutritional superstar. It's high in many nutrients, including fiber, vitamin C, vitamin K, iron, and potassium. It also contains more protein than most other vegetables. Broccoli is particularly known for its high content of sulforaphane, a potent compound that has been studied for its potential to protect against various types of cancer and support detoxification.",
+      "benefits": [
+        "Cancer Protection",
+        "Immune Support",
+        "Digestive Health",
+        "High Fiber"
+      ],
+      "calories": 34,
+      "protein": "2.8g",
+      "carbs": "7g",
+      "fat": "0.4g",
+      "flipkartLink": "https://www.flipkart.com/broccoli-cut/p/itm1ad7117d54456?pid=VEGFTARF2AHPENTF&lid=LSTVEGFTARF2AHPENTFWIAU9Y&marketplace=FLIPKART&q=broccoli&store=eat%2Flmt&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_na&fm=search-autosuggest&iid=90c3759a-ad31-47b7-8b19-b471d1faf179.VEGFTARF2AHPENTF.SEARCH&ppt=sp&ppn=sp&ssid=em9mo2ooio0000001769863827162&qH=fb8da64f829e8fc7",
+      "amazonLink": "https://amzn.in/d/9kWCjvh"
+    },
+    {
+      "id": "quinoa",
+      "name": "Quinoa",
+      "category": "Grains",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=800",
+      "description": "A gluten-free pseudocereal that is one of the few plant foods that contain all nine essential amino acids.",
+      "longDescription": "Quinoa is a seed that is prepared and eaten like a grain. It is non-GMO, gluten-free, and usually grown organically. Even though it is technically not a cereal grain, it still counts as a whole-grain food. Quinoa is very high in protein and is one of the few plant foods that contains all nine essential amino acids. It is also high in fiber, magnesium, B vitamins, iron, potassium, calcium, phosphorus, and vitamin E.",
+      "benefits": [
+        "Complete Protein",
+        "Gluten-Free",
+        "High Magnesium",
+        "Low Glycemic Index"
+      ],
+      "calories": 120,
+      "protein": "4.4g",
+      "carbs": "21g",
+      "fat": "1.9g",
+      "amazonLink": "https://amzn.in/d/7AdmdPA",
+      "flipkartLink": "https://www.flipkart.com/greenhabit-habit-organic-white-quinoa-1-kg-pack/p/itm74f54231b3910?pid=GNMFYPA5XYJDCPXT&lid=LSTGNMFYPA5XYJDCPXTBSTZTR&marketplace=FLIPKART&q=quinoa+organic+1+kg&store=eat%2Fznz%2Fxee&srno=s_1_2&otracker=AS_Query_OrganicAutoSuggest_1_19_na_na_ps&otracker1=AS_Query_OrganicAutoSuggest_1_19_na_na_ps&fm=search-autosuggest&iid=2550ea1d-2474-4cdc-a913-e986a2e24d12.GNMFYPA5XYJDCPXT.SEARCH&ppt=sp&ppn=sp&ssid=rig8djzdyo0000001769863957841&qH=4f1c349afe9cbd8f"
+    },
+    {
+      "id": "greek-yogurt",
+      "name": "Greek Yogurt",
+      "category": "Dairy",
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800",
+      "description": "Thick, creamy, and packed with probiotics and twice the protein of regular yogurt.",
+      "longDescription": "Greek yogurt is a great source of calcium, which can help improve bone health. It also contains probiotics, which support a healthy bacterial balance in the gut. Eating Greek yogurt may help lower blood pressure and lower the risk of type 2 diabetes. It's also an excellent post-workout snack due to its high protein content.",
+      "benefits": [
+        "Probiotics",
+        "High Protein",
+        "Bone Health",
+        "Gut Health"
+      ],
+      "calories": 59,
+      "protein": "10g",
+      "carbs": "3.6g",
+      "fat": "0.4g",
+      "amazonLink": "https://amzn.in/d/1Z7NM2W",
+      "flipkartLink": "https://www.flipkart.com/epigamia-greek-flavored-yogurt/p/itm4ed8edf6feff8?pid=CUYF4Z6GTKSY2CJ2&lid=LSTCUYF4Z6GTKSY2CJ2HHPTYG&marketplace=FLIPKART&q=greek+yogurt&store=eat%2F7rr%2Fnrr&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_na&fm=search-autosuggest&iid=a40041d4-3aa0-4ca6-ae4e-72511de5d849.CUYF4Z6GTKSY2CJ2.SEARCH&ppt=sp&ppn=sp&ssid=ea3x64l3e80000001769864012743&qH=cec27203c462c261"
+    },
+    {
+      "id": "turmeric",
+      "name": "Turmeric",
+      "category": "Spices",
+      "image": "https://images.unsplash.com/photo-1666818398897-381dd5eb9139?auto=format&fit=crop&w=1200&q=80",
+      "description": "A golden spice containing curcumin, a potent anti-inflammatory and antioxidant compound.",
+      "longDescription": "Turmeric is perhaps the most effective nutritional supplement in existence. Many high-quality studies show that it has major benefits for your body and brain. Curcumin is the main active ingredient in turmeric. It has powerful anti-inflammatory effects and is a very strong antioxidant. However, curcumin is poorly absorbed into the bloodstream, so consuming it with black pepper (which contains piperine) can enhance absorption by 2,000%.",
+      "benefits": [
+        "Anti-inflammatory",
+        "Powerful Antioxidant",
+        "Brain Function",
+        "Heart Health"
+      ],
+      "calories": 312,
+      "protein": "9.7g",
+      "carbs": "67g",
+      "fat": "3.3g",
+      "amazonLink": "https://amzn.in/d/1jsVxm9",
+      "flipkartLink": "https://www.flipkart.com/ramraj-kacchi-haldi-fresh-roots-raw-turmeric-natural-immunity-booster/p/itmd75de31995d9b?pid=SCMH7G7PUFUDWTZG&lid=LSTSCMH7G7PUFUDWTZGCYKAOT&marketplace=FLIPKART&q=turmeric+raw&store=eat%2Fxgg&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_12_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_12_na_na_ps&fm=search-autosuggest&iid=8db09234-ee59-4b70-abfb-540f05fdccb1.SCMH7G7PUFUDWTZG.SEARCH&ppt=sp&ppn=sp&ssid=mhwk2omgmo0000001769864089204&qH=2573fb830c97e7d9"
+    },
+    {
+      "id": "chia-seeds",
+      "name": "Chia Seeds",
+      "category": "Seeds",
+      "image": "https://images.unsplash.com/photo-1502825926876-e8819fbb2fd0?auto=format&fit=crop&w=1200&q=80",
+      "description": "Tiny black seeds that are a massive source of fiber, omega-3s, and essential minerals.",
+      "longDescription": "Don't be fooled by their size—these tiny seeds pack a powerful nutritional punch. Chia seeds are one of the best sources of fiber in the world. They are also rich in antioxidants, high-quality protein, and omega-3 fatty acids. Because of their high fiber and protein content, chia seeds may help you lose weight and significantly reduce the risk of heart disease.",
+      "benefits": [
+        "Massive Fiber",
+        "Omega-3 Rich",
+        "High Protein",
+        "Bone Nutrients"
+      ],
+      "calories": 486,
+      "protein": "17g",
+      "carbs": "42g",
+      "fat": "31g",
+      "amazonLink": "https://amzn.in/d/7gT1vUH",
+      "flipkartLink": "https://www.flipkart.com/tata-sampann-100-pure-premium-chia-seeds-rich-calcium-protein-seeds/p/itmf8d2de9340701?pid=EDSHEZEHF8QEEZ75&lid=LSTEDSHEZEHF8QEEZ75DRCUM5&marketplace=FLIPKART&q=chia+seeds&store=eat%2Fltb%2Fjlc&srno=s_1_36&otracker=AS_QueryStore_OrganicAutoSuggest_1_8_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_8_na_na_na&fm=search-autosuggest&iid=981dcb24-ced4-458d-a7a3-76c0c68aed9a.EDSHEZEHF8QEEZ75.SEARCH&ppt=sp&ppn=sp&ssid=oitm3kdu1c0000001769864153025&qH=c41bbfd83eb0798c"
+    },
+    {
+      "id": "sweet-potatoes",
+      "name": "Sweet Potatoes",
+      "category": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1596097635121-14b63b7a0c23?auto=format&fit=crop&w=1200&q=80",
+      "description": "Excellent source of beta-carotene, which is converted to vitamin A to support eye health and immunity.",
+      "longDescription": "Sweet potatoes are sweet, starchy root vegetables that are grown worldwide. They come in a variety of sizes and colors—including orange, white, and purple—and are rich in vitamins, minerals, antioxidants, and fiber. They are particularly high in beta-carotene, which gives the orange-fleshed varieties their vibrant color and supports vision, immunity, and skin health.",
+      "benefits": [
+        "Vitamin A Boost",
+        "Immune Support",
+        "Digestive Health",
+        "Healthy Glow"
+      ],
+      "calories": 86,
+      "protein": "1.6g",
+      "carbs": "20g",
+      "fat": "0.1g",
+      "amazonLink": "https://amzn.in/d/eidhJzQ",
+      "flipkartLink": "https://www.flipkart.com/organic-sweet-potato/p/itm1ec62a02a36ed?pid=VEGHHHYCRRHGHZJE&lid=LSTVEGHHHYCRRHGHZJEPCNCMI&marketplace=FLIPKART&q=sweet+potato+vegetable&store=eat%2Flmt%2Fzhh&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_11_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_11_na_na_na&fm=search-autosuggest&iid=8861b540-2573-4189-be69-78e148db67c7.VEGHHHYCRRHGHZJE.SEARCH&ppt=sp&ppn=sp&ssid=6oj087189s0000001769864230495&qH=31cf19072ee78aa7"
+    },
+    {
+      "id": "dark-chocolate",
+      "name": "Dark Chocolate",
+      "category": "Treats",
+      "image": "https://images.unsplash.com/photo-1592290321458-49b80f943a26?auto=format&fit=crop&w=1200&q=80",
+      "description": "Rich in flavonoids and minerals, dark chocolate (70%+ cacao) supports heart health and mood.",
+      "longDescription": "High-quality dark chocolate is rich in fiber, iron, magnesium, copper, manganese, and a few other minerals. It is also loaded with organic compounds that are biologically active and function as antioxidants. These include polyphenols, flavanols, and catechins, among others. Studies show that dark chocolate can improve health and lower the risk of heart disease.",
+      "benefits": [
+        "Heart Health",
+        "Mood Booster",
+        "Antioxidant Rich",
+        "Brain Function"
+      ],
+      "calories": 600,
+      "protein": "8g",
+      "carbs": "46g",
+      "fat": "43g",
+      "amazonLink": "https://amzn.in/d/gWw2Kne",
+      "flipkartLink": "https://www.flipkart.com/amul-dark-chocolate-ultimate-bars/p/itm8359385893e7c?pid=CHCH82TNMF7A7EHW&lid=LSTCHCH82TNMF7A7EHWBHHY1D&marketplace=FLIPKART&q=dark+chocolate&store=eat%2F0pt&srno=s_1_24&otracker=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&fm=search-autosuggest&iid=04e01d08-fe3e-4775-b829-f5599453eb28.CHCH82TNMF7A7EHW.SEARCH&ppt=sp&ppn=sp&ssid=ai3byl35n40000001769864321334&qH=7dd7e8388a225244"
+    },
+    {
+      "id": "ginger",
+      "name": "Ginger",
+      "category": "Roots",
+      "image": "https://images.unsplash.com/photo-1615484478243-c94e896edbae?auto=format&fit=crop&w=1200&q=80",
+      "description": "A medicinal root that aids digestion, reduces nausea, and helps fight the common cold and flu.",
+      "longDescription": "Ginger is one of the healthiest (and most delicious) spices on the planet. It is closely related to turmeric, cardamom, and galangal. Ginger can be used fresh, dried, powdered, or as an oil or juice. Gingerol is the main bioactive compound in ginger, responsible for much of its medicinal properties. It has powerful anti-inflammatory and antioxidant effects.",
+      "benefits": [
+        "Digestive Aid",
+        "Nausea Relief",
+        "Anti-inflammatory",
+        "Immune Support"
+      ],
+      "calories": 80,
+      "protein": "1.8g",
+      "carbs": "18g",
+      "fat": "0.8g",
+      "amazonLink": "https://amzn.in/d/eFctngT",
+      "flipkartLink": "https://www.flipkart.com/ginger/p/itm32320ea592f29?pid=VEGF7FJ5HCSTTCJW&lid=LSTVEGF7FJ5HCSTTCJWSF3ACG&marketplace=FLIPKART&q=ginger&store=eat%2Flmt%2Fzhh&spotlightTagId=default_BestsellerId_eat%2Flmt%2Fzhh&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_ps&fm=search-autosuggest&iid=944d1a87-a9af-4588-a3ee-7f303429b126.VEGF7FJ5HCSTTCJW.SEARCH&ppt=sp&ppn=sp&ssid=g24hqbjryo0000001769864373963&qH=6f4ec514eee84cc5"
+    },
+    {
+      "id": "pomegranate",
+      "name": "Pomegranate",
+      "category": "Fruits",
+      "image": "https://images.unsplash.com/photo-1541344999736-83eca272f6fc?auto=format&fit=crop&q=80&w=800",
+      "description": "A nutrient-rich fruit with potent antioxidant properties that may help prevent chronic diseases.",
+      "longDescription": "Pomegranates are among the healthiest fruits on Earth. They contain a range of beneficial plant compounds, unrivaled by other foods. Many studies have shown that they have incredible benefits for your body and may lower your risk of various diseases. The two unique substances in pomegranates that are responsible for most of their health benefits are Punicalagins and Punicic Acid.",
+      "benefits": [
+        "Anti-aging",
+        "Heart Health",
+        "Anti-inflammatory",
+        "Memory Support"
+      ],
+      "calories": 83,
+      "protein": "1.7g",
+      "carbs": "19g",
+      "fat": "1.2g"
+    },
+    {
+      "id": "green-tea",
+      "name": "Green Tea",
+      "category": "Beverages",
+      "image": "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?auto=format&fit=crop&q=80&w=800",
+      "description": "The healthiest beverage on the planet, loaded with antioxidants and nutrients with powerful effects.",
+      "longDescription": "Green tea is more than just liquid. Many of the plant compounds in the tea leaves do make it into the final drink, which contains large amounts of important nutrients. It is loaded with polyphenol antioxidants, including a catechin called EGCG. These antioxidants can have various beneficial effects on health, including improved brain function, fat loss, and protecting against cancer.",
+      "benefits": [
+        "Metabolism Boost",
+        "Mental Clarity",
+        "Antioxidant Power",
+        "Longevity"
+      ],
+      "calories": 2,
+      "protein": "0g",
+      "carbs": "0.2g",
+      "fat": "0g"
+    },
+    {
+      "id": "garlic",
+      "name": "Garlic",
+      "category": "Roots & Spices",
+      "image": "https://ride-chef-dev.s3.ap-south-1.amazonaws.com/foods/1769857559488-garlicImage.jpg",
+      "description": "A potent medicinal food known for its ability to boost the immune system and support heart health.",
+      "longDescription": "Garlic has been used for centuries for both its pick-me-up flavor and its medicinal properties. It contains compounds like allicin, which have potent medicinal properties. Studies suggest that garlic can help reduce blood pressure, lower cholesterol levels, and even combat the common cold. It is a fundamental ingredient in healthy cooking worldwide.",
+      "benefits": [
+        "Immune Support",
+        "Heart Health",
+        "Anti-bacterial",
+        "Blood Pressure Control"
+      ],
+      "calories": 149,
+      "protein": "6.4g",
+      "carbs": "33g",
+      "fat": "0.5g"
+    },
+    {
+      "id": "oats",
+      "name": "Oats",
+      "category": "Grains",
+      "image": "https://ride-chef-dev.s3.ap-south-1.amazonaws.com/foods/1769857567706-OatsImage.jpg",
+      "description": "A high-fiber whole grain that helps lower cholesterol and provides steady energy throughout the day.",
+      "longDescription": "Oats are incredibly nutritious and one of the healthiest grains on earth. They are a great source of important vitamins, minerals, fiber, and antioxidants. Importantly, oats contain a unique type of fiber called beta-glucan, which has been shown to help lower cholesterol levels and improve heart health. They are also very filling, making them excellent for weight management.",
+      "benefits": [
+        "Heart Health",
+        "Cholesterol Lowering",
+        "High Fiber",
+        "Steady Energy"
+      ],
+      "calories": 389,
+      "protein": "16.9g",
+      "carbs": "66g",
+      "fat": "6.9g"
+    },
+    {
+      "id": "almonds",
+      "name": "Almonds",
+      "category": "Nuts",
+      "image": "https://ride-chef-dev.s3.ap-south-1.amazonaws.com/foods/1769857582926-AlmondsImage.jpg",
+      "description": "Packed with vitamin E, healthy fats, and antioxidants that protect your cells from oxidative damage.",
+      "longDescription": "Almonds are highly nutritious and rich in healthy fats, antioxidants, vitamins, and minerals. They are one of the world's best sources of vitamin E, which is essential for protecting your cells from oxidative damage. Regular consumption of almonds has been linked to lower levels of LDL (bad) cholesterol and improved heart health. They also make a perfect, portable snack.",
+      "benefits": [
+        "Vitamin E Source",
+        "Healthy Fats",
+        "Heart Health",
+        "Cell Protection"
+      ],
+      "calories": 579,
+      "protein": "21g",
+      "carbs": "22g",
+      "fat": "49g"
+    },
+    {
+      "id": "kale",
+      "name": "Kale",
+      "category": "Leafy Greens",
+      "image": "https://ride-chef-dev.s3.ap-south-1.amazonaws.com/foods/1769857594644-KaleImages.jpg",
+      "description": "One of the most nutrient-dense plants on the planet, loaded with vitamins A, K, and C.",
+      "longDescription": "Kale is widely considered one of the healthiest and most nutrient-dense plant foods in existence. It is loaded with all sorts of beneficial compounds, some of which have powerful medicinal properties. Kale is an excellent source of vitamin K, vitamin C, and various antioxidants like quercetin and kaempferol. It supports eye health, heart health, and overall detoxification.",
+      "benefits": [
+        "Nutrient Dense",
+        "Eye Health",
+        "Detoxification",
+        "High in Vitamins"
+      ],
+      "calories": 35,
+      "protein": "2.9g",
+      "carbs": "4.4g",
+      "fat": "1.5g"
+    },
+    {
+      "id": "lentils",
+      "name": "Lentils",
+      "category": "Legumes",
+      "image": "https://ride-chef-dev.s3.ap-south-1.amazonaws.com/foods/1769857601986-LentilsImages.jpg",
+      "description": "A low-cost, high-protein legume that is an excellent source of folate and manganese.",
+      "longDescription": "Lentils are a nutritional powerhouse and a staple in many healthy diets. They are packed with plant-based protein, fiber, and essential minerals. Lentils are particularly high in folate, which is crucial for heart health and DNA synthesis. They are also rich in iron and manganese, supporting energy levels and bone health. Being low in fat and calories, they are perfect for heart-healthy and weight-conscious diets.",
+      "benefits": [
+        "Plant Protein",
+        "High Fiber",
+        "Iron Rich",
+        "Heart Healthy"
+      ],
+      "calories": 116,
+      "protein": "9g",
+      "carbs": "20g",
+      "fat": "0.4g"
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "category": "Fruits",
+      "image": "https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?auto=format&fit=crop&q=80&w=800",
+      "description": "Rich in fiber and vitamin C, apples support heart health and weight loss.",
+      "longDescription": "Apples are one of the most popular fruits in the world. They are high in fiber, vitamin C, and various antioxidants. Apples have been linked to a lower risk of heart disease, diabetes, and cancer. The soluble fiber in apples, called pectin, helps lower cholesterol and promotes gut health.",
+      "benefits": [
+        "Heart Health",
+        "Weight Management",
+        "Digestive Health",
+        "Immune Support"
+      ],
+      "calories": 52,
+      "protein": "0.3g",
+      "carbs": "14g",
+      "fat": "0.2g"
+    },
+    {
+      "id": "banana",
+      "name": "Banana",
+      "category": "Fruits",
+      "image": "https://images.unsplash.com/photo-1571771896612-929c12a9526e?auto=format&fit=crop&q=80&w=800",
+      "description": "A great source of potassium and energy, perfect for pre or post-workout.",
+      "longDescription": "Bananas are a convenient and delicious source of energy. They are rich in potassium, which is essential for heart health and blood pressure control. Bananas also contain fiber and antioxidants. They are easy to digest, making them a perfect snack for athletes and active individuals.",
+      "benefits": [
+        "Energy Boost",
+        "Potassium Rich",
+        "Digestive Health",
+        "Heart Health"
+      ],
+      "calories": 89,
+      "protein": "1.1g",
+      "carbs": "23g",
+      "fat": "0.3g"
+    },
+    {
+      "id": "orange",
+      "name": "Orange",
+      "category": "Fruits",
+      "image": "https://images.unsplash.com/photo-1547514701-42782101795e?auto=format&fit=crop&q=80&w=800",
+      "description": "Famous for its high vitamin C content, oranges boost immunity and skin health.",
+      "longDescription": "Oranges are a citrus fruit known for their high vitamin C content. A single orange can provide over 100% of your daily vitamin C needs. They are also rich in fiber, thiamine, folate, and antioxidants. Consuming oranges regularly may improve heart health, prevent kidney stones, and enhance iron absorption.",
+      "benefits": [
+        "Immune Boost",
+        "Skin Health",
+        "Heart Health",
+        "Kidney Stone Prevention"
+      ],
+      "calories": 47,
+      "protein": "0.9g",
+      "carbs": "12g",
+      "fat": "0.1g"
+    },
+    {
+      "id": "strawberry",
+      "name": "Strawberry",
+      "category": "Berries",
+      "image": "https://images.unsplash.com/photo-1464965911861-746f37d40efc?auto=format&fit=crop&q=80&w=800",
+      "description": "Sweet, red berries packed with vitamins, fiber, and high levels of antioxidants.",
+      "longDescription": "Strawberries are bright red, juicy, and sweet. They're an excellent source of vitamin C and manganese and contain decent amounts of folate (vitamin B9) and potassium. Strawberries are rich in antioxidants and plant compounds, which may have benefits for heart health and blood sugar control.",
+      "benefits": [
+        "High Antioxidants",
+        "Heart Health",
+        "Blood Sugar Control",
+        "Vitamin C"
+      ],
+      "calories": 32,
+      "protein": "0.7g",
+      "carbs": "7.7g",
+      "fat": "0.3g"
+    },
+    {
+      "id": "lemon",
+      "name": "Lemon",
+      "category": "Fruits",
+      "image": "https://images.unsplash.com/photo-1590502593747-42a996133562?auto=format&fit=crop&q=80&w=800",
+      "description": "A citrus fruit rich in vitamin C, often used to flavor food and drinks.",
+      "longDescription": "Lemons are a high source of vitamin C and soluble fiber. They contain plant compounds that have various health benefits. Lemons may support weight loss and reduce your risk of heart disease, anemia, kidney stones, digestive issues, and cancer.",
+      "benefits": [
+        "Immune Support",
+        "Digestive Aid",
+        "Skin Health",
+        "Kidney Health"
+      ],
+      "calories": 29,
+      "protein": "1.1g",
+      "carbs": "9g",
+      "fat": "0.3g"
+    },
+    {
+      "id": "carrot",
+      "name": "Carrot",
+      "category": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&q=80&w=800",
+      "description": "Crunchy, tasty, and highly nutritious, carrots are a particularly good source of beta carotene.",
+      "longDescription": "Carrots are a root vegetable that is often claimed to be the perfect health food. They are crunchy, tasty, and highly nutritious. Carrots are a particularly good source of beta carotene, fiber, vitamin K1, potassium, and antioxidants. They also have a number of health benefits, including lower cholesterol levels and improved eye health.",
+      "benefits": [
+        "Eye Health",
+        "Antioxidant Rich",
+        "Heart Health",
+        "Skin Glow"
+      ],
+      "calories": 41,
+      "protein": "0.9g",
+      "carbs": "9.6g",
+      "fat": "0.2g"
+    },
+    {
+      "id": "tomato",
+      "name": "Tomato",
+      "category": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&q=80&w=800",
+      "description": "Rich in lycopene, tomatoes promote heart health and reduce cancer risk.",
+      "longDescription": "The tomato is the edible berry of the plant Solanum lycopersicum. They are a great source of vitamin C, potassium, folate, and vitamin K. Tomatoes are the major dietary source of the antioxidant lycopene, which has been linked to many health benefits, including reduced risk of heart disease and cancer.",
+      "benefits": [
+        "Heart Health",
+        "Cancer Prevention",
+        "Skin Health",
+        "Vision Support"
+      ],
+      "calories": 18,
+      "protein": "0.9g",
+      "carbs": "3.9g",
+      "fat": "0.2g"
+    },
+    {
+      "id": "bell-pepper",
+      "name": "Bell Pepper",
+      "category": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1563565375-f3fdf5efa2e0?auto=format&fit=crop&q=80&w=800",
+      "description": "Colorful and crunchy, bell peppers are loaded with vitamin C and antioxidants.",
+      "longDescription": "Bell peppers come in various colors, including green, red, yellow, and orange. They are low in calories and exceptionally rich in vitamin C and other antioxidants, making them an excellent addition to a healthy diet. Red bell peppers, in particular, pack the most nutrition.",
+      "benefits": [
+        "Immune Boost",
+        "Eye Health",
+        "Antioxidant Rich",
+        "Skin Health"
+      ],
+      "calories": 26,
+      "protein": "1g",
+      "carbs": "6g",
+      "fat": "0.3g"
+    },
+    {
+      "id": "cucumber",
+      "name": "Cucumber",
+      "category": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1604977042946-1eecc6a31b4e?auto=format&fit=crop&q=80&w=800",
+      "description": "Hydrating and low in calories, cucumbers are perfect for weight loss and hydration.",
+      "longDescription": "Cucumbers are high in water and low in calories, fat, cholesterol, and sodium. They have a mild, refreshing taste and a high water content. They can help prevent dehydration and are rich in vitamin K. They also contain antioxidants, including flavonoids and tannins, which prevent the accumulation of harmful free radicals.",
+      "benefits": [
+        "Hydration",
+        "Weight Loss",
+        "Bone Health",
+        "Skin Soothing"
+      ],
+      "calories": 15,
+      "protein": "0.7g",
+      "carbs": "3.6g",
+      "fat": "0.1g"
+    },
+    {
+      "id": "cauliflower",
+      "name": "Cauliflower",
+      "category": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1568584711075-3d021a7c3ca3?auto=format&fit=crop&q=80&w=800",
+      "description": "A versatile vegetable high in fiber and B-vitamins, great as a low-carb alternative.",
+      "longDescription": "Cauliflower is an extremely healthy vegetable that's a significant source of nutrients. It also contains unique plant compounds that may reduce the risk of several diseases, including heart disease and cancer. Additionally, it's weight-loss friendly and incredibly easy to add to your diet.",
+      "benefits": [
+        "Digestive Health",
+        "Brain Function",
+        "Cancer Fight",
+        "Weight Loss"
+      ],
+      "calories": 25,
+      "protein": "1.9g",
+      "carbs": "5g",
+      "fat": "0.3g"
+    },
+    {
+      "id": "brown-rice",
+      "name": "Brown Rice",
+      "category": "Grains",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=800",
+      "description": "A whole grain that is much more nutritious than white rice, high in fiber and magnesium.",
+      "longDescription": "Brown rice is a whole grain. It contains the bran and germ, which provide fiber and several vitamins and minerals. White rice is a refined grain that has had these nutritious parts removed. Brown rice is generally higher in fiber, magnesium, and other nutrients, and is not artificially enriched with nutrients like white rice often is.",
+      "benefits": [
+        "Heart Health",
+        "Digestive Health",
+        "Blood Sugar Control",
+        "Selenium Rich"
+      ],
+      "calories": 111,
+      "protein": "2.6g",
+      "carbs": "23g",
+      "fat": "0.9g"
+    },
+    {
+      "id": "black-beans",
+      "name": "Black Beans",
+      "category": "Legumes",
+      "image": "https://images.unsplash.com/photo-1588725902996-29cb7980bc94?auto=format&fit=crop&q=80&w=800",
+      "description": "A staple in many diets, black beans are high in fiber, protein, and antioxidants.",
+      "longDescription": "Black beans are a legume and are also referred to as turtle beans because of their hard, shell-like appearance. Like other legumes, such as peanuts and lentils, black beans are prized for their high protein and fiber content. They also contain several other key vitamins and minerals that are known to benefit human health.",
+      "benefits": [
+        "Blood Sugar Control",
+        "Heart Health",
+        "Digestive Health",
+        "High Protein"
+      ],
+      "calories": 132,
+      "protein": "8.9g",
+      "carbs": "23.7g",
+      "fat": "0.5g"
+    },
+    {
+      "id": "kidney-beans",
+      "name": "Kidney Beans",
+      "category": "Legumes",
+      "image": "https://images.unsplash.com/photo-1630141630292-938b80d0d869?auto=format&fit=crop&q=80&w=800",
+      "description": "One of the most common beans, rich in fiber and protein, but must be cooked properly.",
+      "longDescription": "Kidney beans are a variety of the common bean. They are native to Central America and Mexico. Kidney beans are a major source of protein and excellent source of fiber. They are also rich in various vitamins and minerals, such as molybdenum, folate, iron, copper, manganese, potassium, and vitamin K1.",
+      "benefits": [
+        "Protein Source",
+        "Colon Health",
+        "Blood Sugar Control",
+        "Weight Management"
+      ],
+      "calories": 127,
+      "protein": "8.7g",
+      "carbs": "22.8g",
+      "fat": "0.5g"
+    },
+    {
+      "id": "olive-oil",
+      "name": "Olive Oil",
+      "category": "Healthy Fats",
+      "image": "https://images.unsplash.com/photo-1474979266404-7cadd259d366?auto=format&fit=crop&q=80&w=800",
+      "description": "The healthiest fat on earth, vital for the Mediterranean diet and heart health.",
+      "longDescription": "Extra virgin olive oil is the lease processed variety and is often considered to be the healthiest type of olive oil. It's extracted using natural methods and standardized for purity and certain sensory qualities like taste and smell. Olive oil is rich in monounsaturated oleic acid. This fatty acid is believed to have many beneficial effects and is a healthy choice for cooking.",
+      "benefits": [
+        "Anti-inflammatory",
+        "Heart Health",
+        "Stroke Prevention",
+        "Antioxidants"
+      ],
+      "calories": 884,
+      "protein": "0g",
+      "carbs": "0g",
+      "fat": "100g"
+    },
+    {
+      "id": "pumpkin-seeds",
+      "name": "Pumpkin Seeds",
+      "category": "Seeds",
+      "image": "https://images.unsplash.com/photo-1605335195000-c4e9cb72b36e?auto=format&fit=crop&q=80&w=800",
+      "description": "Small but mighty seeds loaded with magnesium, iron, zinc, and antioxidants.",
+      "longDescription": "Pumpkin seeds are a good source of antioxidants, magnesium, zinc and fatty acids — including omega-3s and omega-6s. They have long been associated with health benefits, such as a reduced risk of certain cancers and improved heart and prostate health. They can be easily added to your diet as a snack or ingredient.",
+      "benefits": [
+        "High Magnesium",
+        "Prostate Health",
+        "Heart Health",
+        "Sleep Quality"
+      ],
+      "calories": 559,
+      "protein": "30g",
+      "carbs": "10.7g",
+      "fat": "49g"
+    },
+    {
+      "id": "sunflower-seeds",
+      "name": "Sunflower Seeds",
+      "category": "Seeds",
+      "image": "https://images.unsplash.com/photo-1473436323145-23c21d009228?auto=format&fit=crop&q=80&w=800",
+      "description": "Rich in healthy fats, beneficial plant compounds and several vitamins and minerals.",
+      "longDescription": "Sunflower seeds are harvested from the flower head of the sunflower plant. They are high in healthy fats, beneficial plant compounds and several vitamins and minerals. These nutrients may play a role in reducing your risk of common health problems, including heart disease and type 2 diabetes.",
+      "benefits": [
+        "Inflammation Reduction",
+        "Heart Health",
+        "Vitamin E",
+        "Selenium Source"
+      ],
+      "calories": 584,
+      "protein": "20.8g",
+      "carbs": "20g",
+      "fat": "51.5g"
+    },
+    {
+      "id": "eggs",
+      "name": "Eggs",
+      "category": "Protein",
+      "image": "https://images.unsplash.com/photo-1506976785307-8732e854ad03?auto=format&fit=crop&q=80&w=800",
+      "description": "Among the most nutritious foods on the planet, high in protein and essential nutrients.",
+      "longDescription": "Eggs are a very good source of inexpensive, high-quality protein. They are rich in selenium, vitamin D, B6, B12 and minerals such as zinc, iron and copper. Egg yolks contain more calories and fat than the whites. They are a source of fat-soluble vitamins A, D, E and K and lecithin, the compound that enables emulsification in recipes such as hollandaise or mayonnaise.",
+      "benefits": [
+        "Protein Packed",
+        "Brain Health",
+        "Eye Health",
+        "Heart Healthy"
+      ],
+      "calories": 155,
+      "protein": "13g",
+      "carbs": "1.1g",
+      "fat": "11g"
+    },
+    {
+      "id": "chicken-breast",
+      "name": "Chicken Breast",
+      "category": "Protein",
+      "image": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&q=80&w=800",
+      "description": "A low-fat source of high-quality protein, essential for muscle building.",
+      "longDescription": "Chicken breast is one of the most popular foods for weight loss. It is high in protein and low in fat, making it an excellent choice for people who are trying to lose weight or build muscle. Chicken breast is also a good source of vitamins and minerals, including vitamin B6, niacin, selenium, and phosphorus.",
+      "benefits": [
+        "Muscle Building",
+        "Weight Loss",
+        "Bone Health",
+        "High Protein"
+      ],
+      "calories": 165,
+      "protein": "31g",
+      "carbs": "0g",
+      "fat": "3.6g"
+    },
+    {
+      "id": "peanuts",
+      "name": "Peanuts",
+      "category": "Legumes",
+      "image": "https://images.unsplash.com/photo-1563503268-33346b0a68d4?auto=format&fit=crop&q=80&w=800",
+      "description": "Tasty, high in protein and fat, and linked to numerous health benefits.",
+      "longDescription": "Peanuts are a legume but are often considered a nut. They are high in healthy fats, protein, and fiber. Peanuts are also a good source of vitamins and minerals, including vitamin E, magnesium, folate, copper, and phosphorus. Eating peanuts may lower the risk of heart disease and gallstones.",
+      "benefits": [
+        "Heart Health",
+        "Weight Loss",
+        "Gallstone Prevention",
+        "High Protein"
+      ],
+      "calories": 567,
+      "protein": "25.8g",
+      "carbs": "16.1g",
+      "fat": "49.2g"
+    },
+    {
+      "id": "asparagus",
+      "name": "Asparagus",
+      "category": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1517400508675-53a5c3631985?auto=format&fit=crop&q=80&w=800",
+      "description": "A popular vegetable low in carbs and calories but loaded with vitamin K.",
+      "longDescription": "Asparagus is a popular vegetable. It is low in both carbs and calories but loaded with vitamin K. Asparagus is also a good source of antioxidants, including vitamin E, vitamin C, and glutathione, as well as various flavonoids and polyphenols. It's high in folate, which is vital for a healthy pregnancy.",
+      "benefits": [
+        "Digestive Health",
+        "Healthy Pregnancy",
+        "Lower Blood Pressure",
+        "Vitamin K"
+      ],
+      "calories": 20,
+      "protein": "2.2g",
+      "carbs": "3.9g",
+      "fat": "0.1g"
+    },
+    {
+      "id": "beetroot",
+      "name": "Beetroot",
+      "category": "Roots",
+      "image": "https://images.unsplash.com/photo-1543360567-4f997cb0409c?auto=format&fit=crop&q=80&w=800",
+      "description": "Deep purple roots known for improving blood flow and lowering blood pressure.",
+      "longDescription": "Beetroots are widely known for their earthy flavor and vibrant color. They are a great source of fiber, folate (vitamin B9), manganese, potassium, iron, and vitamin C. Beetroots and beetroot juice have been associated with numerous health benefits, including improved blood flow, lower blood pressure, and increased exercise performance.",
+      "benefits": [
+        "Lower Blood Pressure",
+        "Exercise Performance",
+        "Digestive Health",
+        "Brain Health"
+      ],
+      "calories": 43,
+      "protein": "1.6g",
+      "carbs": "9.6g",
+      "fat": "0.2g"
+    },
+    {
+      "id": "pineapple",
+      "name": "Pineapple",
+      "category": "Fruits",
+      "image": "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?auto=format&fit=crop&q=80&w=800",
+      "description": "A tropical fruit loaded with nutrients and the enzyme bromelain, which aids digestion.",
+      "longDescription": "Pineapple is a delicious tropical fruit. It is packed with nutrients, antioxidants, and other helpful compounds, such as enzymes that can fight inflammation and disease. Pineapple and its compounds have been linked to many health benefits, including aiding digestion, boosting immunity, and speeding up recovery from surgery.",
+      "benefits": [
+        "Digestive Enzyme",
+        "Immune Support",
+        "Anti-inflammatory",
+        "Speedy Recovery"
+      ],
+      "calories": 50,
+      "protein": "0.5g",
+      "carbs": "13.1g",
+      "fat": "0.1g"
+    }
+  ],
+  "messages": [
+    {
+      "id": "1769855586378",
+      "name": "Ashish Kumar",
+      "email": "ashishkushwaha7456@gmail.com",
+      "message": "dwede",
+      "status": "replied",
+      "createdAt": "2026-01-31T10:33:06.378Z",
+      "reply": "edw",
+      "repliedAt": "2026-01-31T10:33:53.646Z"
+    },
+    {
+      "id": "1769856164217",
+      "name": "Ashish Kumar",
+      "email": "ashishkushwaha7456@gmail.com",
+      "message": "wdwededw",
+      "status": "replied",
+      "createdAt": "2026-01-31T10:42:44.217Z",
+      "reply": "ok i get it",
+      "repliedAt": "2026-01-31T10:43:28.859Z"
+    }
+  ],
+  "subscribers": [
+    {
+      "id": "1769859002847",
+      "email": "ashishkushwaha7456@gmail.com",
+      "joinedAt": "2026-01-31T11:30:02.847Z"
+    }
+  ],
+  "pages": {
+    "about": {
+      "title": "About Belly Bliss",
+      "subtitle": "Democratizing nutrition knowledge for a healthier world.",
+      "content": "<p class=\"lead\" style=\"text-align: center; margin-bottom: 4rem;\">We believe that food is information. Every bite communicates with your biology. Our mission is to translate complex nutritional science into simple, actionable, and delicious choices.</p><h2>Our Story</h2><p>Founded by Ashish Kumar, Belly Bliss started as a personal journey to understand the impact of diet on long-term health. Frustrated by conflicting advice and complex scientific papers, we set out to create a simple, verified, and beautiful guide to the world's healthiest foods.</p><p><br></p><p><br></p>"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "subtitle": "Transparent protection of your personal data.",
+      "content": "<p class=\"last-updated\">Last Updated: January 31, 2026</p><h2>1. Introduction</h2><p>Welcome to Belly Bliss. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our website directly or via our partners.</p><h2>2. Data We Collect</h2><p>We may collect, use, store and transfer different kinds of personal data about you which we have grouped together as follows:</p><ul><li><strong>Identity Data:</strong> includes first name, last name, username or similar identifier.</li><li><strong>Contact Data:</b> includes email address and message content when you contact us.</li><li><strong>Technical Data:</strong> includes internet protocol (IP) address, your login data, browser type and version, time zone setting and location, browser plug-in types and versions, operating system and platform.</li></ul><h2>3. How We Use Your Data</h2><p>We will only use your personal data when the law allows us to. Most commonly, we will use your personal data in the following circumstances:</p><ul><li>Where we need to reply to your inquiries.</li><li>Where it is necessary for our legitimate interests (or those of a third party) and your interests and fundamental rights do not override those interests.</li></ul><h2>4. Cookies and Advertising</h2><p>We use cookies to distinguish you from other users of our website. This helps us to provide you with a good experience when you browse our website and also allows us to improve our site.</p><p>We use Google AdSense to display ads. Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to your website or other websites.</p><h2>5. Affiliate Disclosure</h2><p>Belly Bliss is a participant in the Amazon Services LLC Associates Program and Flipkart Affiliate Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com and Flipkart.com.</p>"
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "subtitle": "Rules and regulations for using the Belly Bliss platform.",
+      "content": "<p class=\"last-updated\">Last Updated: January 31, 2026</p><h2>1. Agreement to Terms</h2><p>By accessing our website, you agree to be bound by these Terms of Service and to comply with all applicable laws and regulations.</p><h2>2. Medical Disclaimer</h2><p style=\"background: #fff5f5; border-left: 4px solid #e53e3e; padding: 1.5rem; margin: 1.5rem 0; color: #c53030; border-radius: 0 12px 12px 0; font-size: 1.05rem; line-height: 1.6;\"><strong>Important:</strong> The content on Belly Bliss is for informational purposes only. It is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.</p><h2>3. Intellectual Property</h2><p>The content, organization, graphics, design, compilation, and other matters related to the Site are protected under applicable copyrights and other proprietary (including but not limited to intellectual property) rights.</p><h2>4. Affiliate Links</h2><p>This website may contain links to affiliate websites, and we receive an affiliate commission for any purchases made by you on the affiliate website using such links.</p><h2>5. Limitation of Liability</h2><p>In no event shall Belly Bliss, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of or inability to access or use the Service.</p>"
+    },
+    "cookie-policy": {
+      "title": "Cookie Policy",
+      "subtitle": "How and why we use cookies on Belly Bliss.",
+      "content": "<p class=\"last-updated\">Last Updated: January 31, 2026</p><h2>1. What Are Cookies</h2><p>Cookies are small text files that are stored on your computer or mobile device when you visit a website. They are widely used to make websites work, or work more efficiently, as well as to provide information to the owners of the site.</p><h2>2. How We Use Cookies</h2><p>Belly Bliss uses cookies for various reasons, including:</p><ul><li><strong>Essential Cookies:</strong> Necessary for the website to function properly.</li><li><strong>Performance Cookies:</strong> These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site.</li><li><strong>Targeting Cookies:</strong> These cookies may be set through our site by our advertising partners, such as Google AdSense, to build a profile of your interests and show you relevant adverts on other sites.</li></ul><h2>3. Your Choices</h2><p>You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer. This may prevent you from taking full advantage of the website.</p><h2>4. Contact Us</h2><p>If you have any questions about our use of cookies, please contact Ashish Kumar at ashishkushwaha7456@gmail.com.</p>"
+    }
+  }
+}

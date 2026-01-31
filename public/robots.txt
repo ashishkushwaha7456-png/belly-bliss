@@ -1,0 +1,6 @@
+google-site-verification: YOUR_VERIFICATION_CODE_HERE
+User-agent: *
+Disallow: /admin
+Allow: /
+
+Sitemap: http://localhost:3000/sitemap.xml
