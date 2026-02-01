@@ -68,9 +68,9 @@ export default function AdminDashboard() {
             let subscribersData = [];
             if (subscribersRes.ok) subscribersData = await subscribersRes.json();
 
-            setFoods(foodsData);
-            setMessages(messagesData);
-            setSubscribers(subscribersData);
+            setFoods(Array.isArray(foodsData) ? foodsData : []);
+            setMessages(Array.isArray(messagesData) ? messagesData : []);
+            setSubscribers(Array.isArray(subscribersData) ? subscribersData : []);
             setPages(pagesData);
         } catch (error) {
             console.error('Failed to fetch data:', error);
@@ -310,7 +310,9 @@ export default function AdminDashboard() {
                         </button>
                         <button className={`tab-btn ${activeTab === 'messages' ? 'active' : ''}`} onClick={() => setActiveTab('messages')}>
                             <MessageSquare size={20} /> Help Center
-                            {messages.filter(m => m.status === 'pending').length > 0 && <span className="badge">{messages.filter(m => m.status === 'pending').length}</span>}
+                            {(Array.isArray(messages) ? messages : []).filter(m => m.status === 'pending').length > 0 &&
+                                <span className="badge">{(Array.isArray(messages) ? messages : []).filter(m => m.status === 'pending').length}</span>
+                            }
                         </button>
                         <button className={`tab-btn ${activeTab === 'weekly' ? 'active' : ''}`} onClick={() => setActiveTab('weekly')}>
                             <FileText size={20} /> Weekly Plan
@@ -355,25 +357,25 @@ export default function AdminDashboard() {
                             <div className="data-list">
                                 {Array.isArray(foods) && foods
                                     .filter(food =>
-                                        food.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                                        food.category.toLowerCase().includes(searchQuery.toLowerCase())
+                                        food?.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                                        food?.category.toLowerCase().includes(searchQuery.toLowerCase())
                                     )
                                     .map(food => (
                                         <div key={food.id} className="data-card food-card">
                                             <div className="card-info">
                                                 <img
-                                                    src={food.image}
-                                                    alt={food.name}
+                                                    src={food?.image}
+                                                    alt={food?.name}
                                                     onError={(e) => e.target.src = 'https://images.unsplash.com/photo-1490818387583-1baba2e638af?auto=format&fit=crop&q=80&w=200'}
                                                 />
                                                 <div>
-                                                    <h4>{food.name}</h4>
-                                                    <span>{food.category}</span>
+                                                    <h4>{food?.name}</h4>
+                                                    <span>{food?.category}</span>
                                                 </div>
                                             </div>
                                             <div className="card-stats">
-                                                <div className="stat"><span>Cal:</span> {food.calories}</div>
-                                                <div className="stat"><span>Pro:</span> {food.protein}</div>
+                                                <div className="stat"><span>Cal:</span> {food?.calories}</div>
+                                                <div className="stat"><span>Pro:</span> {food?.protein}</div>
                                             </div>
                                             <div className="card-actions">
                                                 <button className="icon-btn" onClick={() => handleEditClick(food)}>
